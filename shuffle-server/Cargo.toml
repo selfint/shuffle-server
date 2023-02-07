@@ -1,7 +1,20 @@
 [package]
-name = "re-iterate-service"
+name = "shuffle-server"
 version = "0.1.0"
 edition = "2021"
+authors = ["Tom Selfin selfint@gmail.com"]
+description = "A tool to re-order your code"
+readme = "README.md"
+repository = "https://github.com/selfint/shuffle-server"
+license = "MIT"
+license-file = "LICENSE"
+keywords = ["rest-api", "refactor", "tree-sitter"]
+categories = [
+    "command-line-utilities",
+    "development-tools",
+    "parsing",
+    "text-editors",
+]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
