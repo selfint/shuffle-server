@@ -18,7 +18,7 @@ categories = [
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-code-blocks = { path = "../code-blocks" }
+code-blocks = { path = "../code-blocks", version = "0.1.0" }
 rocket = { version = "0.5.0-rc.2", features = ["json"] }
 serde = { version = "1.0.152", features = ["derive"] }
 tree-sitter = "0.20.9"
