@@ -7,7 +7,6 @@ description = "A tool to re-order your code"
 readme = "README.md"
 repository = "https://github.com/selfint/shuffle-server"
 license = "MIT"
-license-file = "LICENSE"
 keywords = ["rest-api", "refactor", "tree-sitter"]
 categories = [
     "command-line-utilities",
