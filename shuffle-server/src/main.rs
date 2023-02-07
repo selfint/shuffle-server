@@ -1,5 +1,5 @@
-use re_iterate_service::{get_subtrees_endpoint, move_item_endpoint};
 use rocket::{launch, routes};
+use shuffle_server::{get_subtrees_endpoint, move_item_endpoint};
 
 #[launch]
 fn rocket() -> _ {

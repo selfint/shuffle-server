@@ -1,16 +1,16 @@
 use code_blocks::get_query_subtrees;
 use code_blocks::Block;
 use code_blocks::BlockTree;
-use re_iterate_service::build_tree;
-use re_iterate_service::get_subtrees_endpoint;
-use re_iterate_service::move_item_endpoint;
-use re_iterate_service::rocket_uri_macro_get_subtrees_endpoint;
-use re_iterate_service::rocket_uri_macro_move_item_endpoint;
-use re_iterate_service::GetSubtreesArgs;
-use re_iterate_service::GetSubtreesResponse;
-use re_iterate_service::MoveItemArgs;
-use re_iterate_service::MoveItemResponse;
-use re_iterate_service::SupportedLanguage;
+use shuffle_server::build_tree;
+use shuffle_server::get_subtrees_endpoint;
+use shuffle_server::move_item_endpoint;
+use shuffle_server::rocket_uri_macro_get_subtrees_endpoint;
+use shuffle_server::rocket_uri_macro_move_item_endpoint;
+use shuffle_server::GetSubtreesArgs;
+use shuffle_server::GetSubtreesResponse;
+use shuffle_server::MoveItemArgs;
+use shuffle_server::MoveItemResponse;
+use shuffle_server::SupportedLanguage;
 
 use rocket::local::blocking::Client;
 use rocket::{routes, uri};
